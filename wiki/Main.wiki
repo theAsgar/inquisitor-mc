@@ -23,6 +23,6 @@ This plugin uses [[http://mcstats.org|Plugin Metrics]] for gathering of anonymou
 * [[Web Pages]]
 
 ===Screenshots of included web pages===
-[https://lh6.googleusercontent.com/-PnS1nw41iLM/Uvo60txN4PI/AAAAAAAAAI8/YBg3sISOfws/s144/shot1.png]
+[https://picasaweb.google.com/lh/photo/LtLXuyJeUQ9UsXyeunuYM56AUL6klIe5p7ZOhWNJUPY?feat=directlink https://lh6.googleusercontent.com/-PnS1nw41iLM/Uvo60txN4PI/AAAAAAAAAI8/YBg3sISOfws/s144/shot1.png]
 
 [https://picasaweb.google.com/lh/photo/elTotU9e3AMB3jN9rSsqUp6AUL6klIe5p7ZOhWNJUPY?feat=directlink https://lh3.googleusercontent.com/-o-Fku4rcbbI/Uvo60hjCNDI/AAAAAAAAAI4/mA0M178AHdM/s144/shot2.png]
