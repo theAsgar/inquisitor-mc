@@ -10,18 +10,18 @@ v2.19 has been released!
 ===Installation===
 Java code (and therefore this plugin) requires a database driver to access a database. If you already use MySQL with your Bukkit server you can probably skip this step. If this is the first time you've configured a Bukkit plugin to use MySQL, read on.
 
-Download the plugin's jar file, drop it into your plugins folder, start Bukkit. At the console, configure the plugin to connect to a previously created MySQL database. See [[Commands]] and [[Configuration]] for details.
+Download the plugin's jar file, drop it into your plugins folder, start Bukkit. At the console, configure the plugin to connect to a previously created MySQL database. See [Commands] and [Configuration] for details.
 
 
 ===Documentation===
 
 This plugin uses [http://mcstats.org Plugin Metrics] for gathering of anonymous statistics. To opt-out, set "opt-out" to true in your Metrics config file (plugins/PluginMetrics/config.yml).
 
-* [[Getting Started]]
-* [[Commands]]
-* [[Configuration]]
-* [[Player Statistics]]
-* [[Web Pages]]
+* [GettingStarted]
+* [Commands]
+* [Configuration]
+* [PlayerStatistics]
+* [WebPages]
 
 ===Screenshots of included web pages===
 [https://picasaweb.google.com/lh/photo/LtLXuyJeUQ9UsXyeunuYM56AUL6klIe5p7ZOhWNJUPY?feat=directlink https://lh6.googleusercontent.com/-PnS1nw41iLM/Uvo60txN4PI/AAAAAAAAAI8/YBg3sISOfws/s144/shot1.png]
