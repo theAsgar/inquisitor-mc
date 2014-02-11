@@ -24,11 +24,11 @@ If the database will not be used exclusively by the plugin, you may also want to
 
 For the commands listed in the following steps, the following values will be used. Your values will probably be different, so make adjustments as necessary.
 
-  * server: **localhost**
-  * port: **3306** (default)
-  * database name: **inquisitor**
-  * user name: **bukkit**
-  * password: **very_clever**
+  * server: *localhost*
+  * port: *3306* (default)
+  * database name: *inquisitor*
+  * user name: *bukkit*
+  * password: *very_clever*
 
 ==Configure the plugin: database==
 
