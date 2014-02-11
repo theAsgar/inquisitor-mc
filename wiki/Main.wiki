@@ -1,0 +1,29 @@
+Inquisitor collects player information and statistics and stores them in a MySQL database. It also provides a built-in web server and templating system to allow viewing stored data over the web.
+
+This plugin is related to, but independent from, the [[http://dev.bukkit.org/server-mods/transporter/|Transporter]] plugin. It was born when certain features in that other plugin were deemed "out of scope" and belonged in a separate plugin. That said, Transporter integrates with Inquisitor to provide that plugin's "Realm Support".
+
+===Announcements===
+* v2.18 has been released!
+
+===Installation===
+Java code (and therefore this plugin) requires a database driver to access a database. If you already use MySQL with your Bukkit server you can probably skip this step. If this is the first time you've configured a Bukkit plugin to use MySQL, read on.
+
+Download the plugin's jar file, drop it into your plugins folder, start Bukkit. At the console, configure the plugin to connect to a previously created MySQL database. See [[Commands]] and [[Configuration]] for details.
+
+[[http://dev.bukkit.org/server-mods/inquisitor/forum/|Forum]]
+
+===Documentation===
+
+This plugin uses [[http://mcstats.org|Plugin Metrics]] for gathering of anonymous statistics. To opt-out, set "opt-out" to true in your Metrics config file (plugins/PluginMetrics/config.yml).
+
+* [[Getting Started]]
+* [[Commands]]
+* [[Configuration]]
+* [[Player Statistics]]
+* [[Web Pages]]
+
+===Screenshots of included web pages===
+
+{{http://dev.bukkit.org/media/images/43/346/shot1.png|Player Page}}
+
+{{http://dev.bukkit.org/media/images/43/347/shot2.png|Players List}}
