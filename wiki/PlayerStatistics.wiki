@@ -5,7 +5,7 @@ Most of the player information and statistics are stored directly in the specifi
 
 ===Schema===
 
-|| **Field** || **Type** || **Version** || **Description** ||
+|| *Field* || *Type* || *Version* || *Description* ||
 || name || varchar || All || Player's name. ||
 || displayName || varchar || All || Player's display name. ||
 || address || varchar || All || Player's last client address. ||
