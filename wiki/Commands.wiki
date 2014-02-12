@@ -21,7 +21,7 @@ The plugin tries very hard to understand what you want when processing commands.
 ==Database==
 
 || *Command* || *Console* || *Client* || *Permission* || *Version* || *Description* ||
-||{{{db get <option>}}}||X||X||inq.db.option.get.`<option>`||All||Displays the value of one or more database options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
+||{{{db get <option>|*}}}||X||X||inq.db.option.get.`<option>`||All||Displays the value of one or more database options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
 ||{{{db set <option> <value>}}}||X||X||inq.db.option.set.`<option>`||All||Sets a database option. See [Configuration] for more information.||
 ||{{{db status}}}||X||X||inq.db.status||v2.0|| Displays status information about the database connection. ||
 
@@ -29,14 +29,14 @@ The plugin tries very hard to understand what you want when processing commands.
 
 || *Command* || *Console* || *Client* || *Permission* || *Version* || *Description* ||
 ||{{{stats flush [<group> [<key>]]}}}||X||X||inq.stats.flush||v2.0|| Flushes a statistics group's cached instances to the database. If no key is specified, flushes all cached statistics in the group. If no group is specified, flushes all groups. The only valid group name is currently "players". Keys in the players group are player names. ||
-||{{{stats get <option>}}}||X||X||inq.stats.option.get.`<option>`||v2.0|| Displays the value of one or more statistics engine options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
+||{{{stats get <option>|*}}}||X||X||inq.stats.option.get.`<option>`||v2.0|| Displays the value of one or more statistics engine options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
 ||{{{stats set <option> <value>}}}||X||X||inq.stats.option.set.`<option>`||v2.0|| Sets a statistics engine option. See [Configuration] for more information.||
 ||{{{stats status}}}||X||X||inq.stats.status||v2.0|| Displays status information about the statistics engine. ||
 
 ==Player Statistics==
 
 || *Command* || *Console* || *Client* || *Permission* || *Version* || *Description* ||
-||{{{players get <option>}}}||X||X||inq.players.option.get.`<option>`||All||Displays the value of one or more player statistics options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
+||{{{players get <option>|*}}}||X||X||inq.players.option.get.`<option>`||All||Displays the value of one or more player statistics options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
 ||{{{players set <option> <value>}}}||X||X||inq.players.option.set.`<option>`||All||Sets a player statistics option. See [Configuration] for more information.||
 
 ==Web Server==
@@ -44,7 +44,7 @@ The plugin tries very hard to understand what you want when processing commands.
 || *Command* || *Console* || *Client* || *Permission* || *Version* || *Description* ||
 ||{{{webserver enable}}}||X||X||inq.webserver.enable||All||Enables the built-in web server and creates the web-root directory if it's not present.||
 ||{{{webserver disable}}}||X||X||inq.webserver.disable||All||Disables the built-in web server.||
-||{{{webserver get <option>}}}||X||X||inq.webserver.option.get.`<option>`||All||Displays the value of one or more web server options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
+||{{{webserver get <option>|*}}}||X||X||inq.webserver.option.get.`<option>`||All||Displays the value of one or more web server options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
 ||{{{webserver set <option> <value>}}}||X||X||inq.webserver.option.set.`<option>`||All||Sets a web server option. See [Configuration] for more information.||
 ||{{{webserver add <option> <value>}}}||X||X||inq.webserver.option.set.`<option>`||All||Adds the specified value to the a web server option. See [Configuration] for more information.||
 ||{{{webserver remove <option> <value>}}}||X||X||inq.webserver.option.set.`<option>`||All||Removes the specified value from a web server option. See [Configuration] for more information.||
