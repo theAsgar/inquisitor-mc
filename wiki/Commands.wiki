@@ -14,7 +14,7 @@ The plugin tries very hard to understand what you want when processing commands.
 
 || *Command* || *Console* || *Client* || *Permission* || *Version* || *Description* ||
 ||{{{help [<pageno>]}}}||X||X||//none//||All||Lists the commands available in the current context. The output will be paginated when used from the client. Specify a page number to see pages beyond the first.||
-||{{{get <option>}}}||X||X||inq.option.get.`<option>`||All||Displays the value of one or more global options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
+||{{{get <option>|*}}}||X||X||inq.option.get.`<option>`||All||Displays the value of one or more global options. The option can be a regular expression to match multiple options. Only the options a player has permission to read will be displayed.||
 ||{{{set <option> <value>}}}||X||X||inq.option.set.`<option>`||All||Sets a global option. See [Configuration] for more information. ||
 ||{{{status}}}||X||X||//none//||v2.0|| This is the equivalent of running the status command for each subsystem that supports it. ||
 
