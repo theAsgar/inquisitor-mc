@@ -1,5 +1,5 @@
 v2.20:
-  * Fix some possible issues the mcstats by upgrading to `revision 7 of the stats framework.
+  * Fix some possible issues the mcstats by upgrading to revision7 of the stats framework.
   * Extended the length of the player address field to 40 to support IPv6 connections and the logging of data from such.
   * Add images for items added in 1.6 and 1.7
   * Add support for new enchantments in 1.7
