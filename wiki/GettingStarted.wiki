@@ -9,6 +9,8 @@
 ==Download the Plugin==
 Download the latest version of Inquisitor. Save the Inquisitor jar file to your minecraft/plugins folder. Make sure you have only one Inquisitor jar file in that folder. Multiple jar files for the same plugin will cause failures.
 
+Start or restart your Minecraft Server and get ready to configure from the console.
+
 ==Create a database==
 You must either create a new MySQL database or use an existing one. In either case, a MySQL user must exist will the following permissions for the database:
 
@@ -43,7 +45,7 @@ For the commands listed in the following steps, the following values will be use
 
 ==Configure the plugin: database==
 
-At the Bukkit console, issue the following commands, making adjustments for the actual values in your environment.
+At the Server console, issue the following commands, making adjustments for the actual values in your environment.
 
 {{{
 inq db set prefix inq
