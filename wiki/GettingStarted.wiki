@@ -1,6 +1,15 @@
-Once the plugin is installed and Bukkit has been restarted, you'll need to configure the plugin to connect to a database, and optionally turn on the web server.
+==Assumptions==
+  * Bukkit or Spigot is already installed as your Minecraft Server and has been started at least once to generate the base folder structure, including the plugin folder.
+  * If used, Vault is installed and configured.
+  * MySQL is installed and running.
+  # At least one DB Schema exists
+  # User account and password are created and known
+  # JDBC drivers are installed
 
-==Creating a database==
+==Download the Plugin==
+Download the latest version of Inquisitor. Save the Inquisitor jar file to your minecraft/plugins folder. Make sure you have only one Inquisitor jar file in that folder. Multiple jar files for the same plugin will cause failures.
+
+==Create a database==
 You must either create a new MySQL database or use an existing one. In either case, a MySQL user must exist will the following permissions for the database:
 
   * CREATE
@@ -19,8 +28,9 @@ Gather and make a note of the following information:
   * Database name
   * User name with the privileges listed above for the database.
   * Password
+  * Prefix (Not required unless sharing a DB)
 
-If the database will not be used exclusively by the plugin, you may also want to decide on a table name prefix to make sure the plugin's tables don't conflict with existing tables. If you decide to use a prefix, make a note of it as well.
+If the database will not be used exclusively by the plugin, you should decide on a table name prefix to make sure the plugin's tables don't conflict with existing tables. If you decide to use a prefix, make a note of it as well.
 
 For the commands listed in the following steps, the following values will be used. Your values will probably be different, so make adjustments as necessary.
 
@@ -29,12 +39,14 @@ For the commands listed in the following steps, the following values will be use
   * database name: *inquisitor*
   * user name: *bukkit*
   * password: *very_clever*
+  * prefix: *inq*
 
 ==Configure the plugin: database==
 
 At the Bukkit console, issue the following commands, making adjustments for the actual values in your environment.
 
 {{{
+inq db set prefix inq
 inq db set url jdbc:mysql://localhost:3306/inquisitor
 inq db set username bukkit
 inq db set password very_clever
