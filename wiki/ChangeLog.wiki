@@ -1,0 +1,14 @@
+v2.20:
+  * Fix some possible issues the mcstats by upgrading to revision 7 of the stats framework.
+  * Extended the length of the player address field to 40 to support IPv6 connections and the logging of data from such.
+  * Add images for items added in 1.6 and 1.7
+  * Add support for new enchantments in 1.7
+  * Add support for new potions in 1.7
+  * NOTE: The above 3 items include changes to the WebPage FTL files. If you have translated or modified those pages and are blocking updates you will need to manually merge them.
+  * Updated version checker to use new code.google.com site
+  * Updated plugin.yml to include soft dependency on vault to ensure proper plugin load order every time.
+  * Updated included Freemarker framework from 2.3.19 to 2.3.20
+
+v2.19:
+  * Fixes integration with bukkit 1.7 API 
+  * Adds support for Horse Riding metric 
