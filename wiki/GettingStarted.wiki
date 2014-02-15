@@ -7,7 +7,7 @@
   # JDBC drivers are installed
 
 ==Download the Plugin==
-Download the latest version of Inquisitor. Save the Inquisitor jar file to your minecraft/plugins folder. Make sure you have only one Inquisitor jar file in that folder. Multiple jar files for the same plugin will cause failures.
+[https://drive.google.com/#folders/0BxZ8iKSazSneYnd0dTFFNjBnMzg Download] the latest version of Inquisitor. Save the Inquisitor jar file to your minecraft/plugins folder. Make sure you have only one Inquisitor jar file in that folder. Multiple jar files for the same plugin will cause failures.
 
 Start or restart your Minecraft Server and get ready to configure from the console.
 
