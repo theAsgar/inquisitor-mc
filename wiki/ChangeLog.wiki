@@ -1,3 +1,8 @@
+v2.21:
+  * Appear to have fixed issue with some players having their total time reset
+  * Added in the missing fish sprite data <- requires a manual merge of spriteData.ftl if you are blocking web updates.
+  * Added additional exception management to log more details around onPlayerJoin and onPlayerQuit events to help track down this random bug. If you see these errors, please e-mail them to me so I can help track this down.
+
 v2.20b:
   * Attempting to add support for Java 1.6 runtime environment
 
