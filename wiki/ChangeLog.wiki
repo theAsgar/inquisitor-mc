@@ -1,4 +1,5 @@
 v2.22:
+  * Added the ability to see a users Ender Chest contents.
   * Fixed issue 12 by including more exception management around integration with other plugins. This should take care of exceptions with onPlayerJoin and onPlayerQuit events. It will now just log a warning that the other plugin did not respond as expected but will not break Inquisitor.
   * Fixed issue 15 user showing back up in database even though they are deleted and properly in the invalidPlayerNamePattern option. 
   * Fixed issue 10 with Total time being cleared for new users 
