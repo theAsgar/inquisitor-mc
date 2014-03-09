@@ -1,3 +1,11 @@
+v2.22:
+  * Fixed issue 12 by including more exception management around integration with other plugins. This should take care of exceptions with onPlayerJoin and onPlayerQuit events. It will now just log a warning that the other plugin did not respond as expected but will not break Inquisitor.
+  * Fixed issue 15 user showing back up in database even though they are deleted and properly in the invalidPlayerNamePattern option. 
+  * Fixed issue 10 with Total time being cleared for new users 
+  * Fixed issue 13 to add in additional sprite data to properly show more items
+  * Moved a bunch of sprite data around to clean up methods, get ready for moving to use type names instead of deprecated type ids.
+  * NOTE: the above 2 items include changes to the WebPages FTL files. If you have translated or modified those pages and are blocking updates you will need to manually merge them.
+
 v2.21:
   * Appear to have fixed issue with some players having their total time reset
   * Added in the missing fish sprite data <- requires a manual merge of spriteData.ftl if you are blocking web updates.
