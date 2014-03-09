@@ -11,7 +11,7 @@ Most of the player information and statistics are stored directly in the specifi
 || address || varchar || All || Player's last client address. ||
 || inventory || JSON || All || Player's inventory. The JSON is an array of objects, in slot order. Each object describes the item in the corresponding slot. Each item's keys are "type", "data", "amount", "durability", "enchantments", and "tag".||
 || armor || JSON || All || Player's armor. See "inventory" for encoding details. ||
-|| ender|| JSON || All || Player's Ender chest inventory. See "inventory" for encoding details. ||
+|| ender|| JSON || v2.22+ || Player's Ender chest inventory. See "inventory" for encoding details. ||
 || heldItemSlot || integer || All || The inventory slot number of which item is being held. ||
 || health || integer || All || Player's health, from 0 to 20. ||
 || remainingAir || integer || All || Player's remaining air from 0 to 300. ||
@@ -28,7 +28,7 @@ Most of the player information and statistics are stored directly in the specifi
 || world || varchar || All || The name of the world the player was last in. ||
 || coords || varchar || All || The coordinates where the player was last. The individual ordinates are separated by commas. ||
 || groups || JSON || All || The groups the player belongs to. This is only available if the Vault plugin is installed and providing permissions integration. ||
-|| money || double || v2.1 || The amount of money the player has. This is only available if the Vault plugin is installed and providing economy integration. ||
+|| money || double || v2.1+ || The amount of money the player has. This is only available if the Vault plugin is installed and providing economy integration. ||
 || bedServer || varchar || All || The name of the server where the player's bed is located. ||
 || bedWorld || varchar || All || The name of the world where the player's bed is located. ||
 || bedCoords || varchar || All || The coordinates of the player's bed. The individual ordinates are separated by commas. ||
@@ -54,21 +54,21 @@ Most of the player information and statistics are stored directly in the specifi
 || mobsKilledByWeapon || MAPPED || All || The weapons used to kill mobs. This is a JSON object where each key is a weapon name and the corresponding value is a count. ||
 || lastMobKill || timestamp || All || The date and time when the last mob killed by this player was killed. ||
 || lastMobKilled || varchar || All || The name of the last player killed by this player. ||
-|| totalBlocksBroken || integer || v2.0 || The total number of blocks broken. ||
+|| totalBlocksBroken || integer || v2.0+ || The total number of blocks broken. ||
 || blocksBroken || MAPPED || All || The blocks broken. This is a JSON object where each key is a material name and the corresponding value is a count. ||
-|| totalBlocksPlaced || integer || v2.0 || The total number of blocks placed. ||
+|| totalBlocksPlaced || integer || v2.0+ || The total number of blocks placed. ||
 || blocksPlaced || MAPPED || All || The blocks placed. This is a JSON object where each key is a material name and the corresponding value is a count. ||
 || animalsTamed || MAPPED || All || Animals tamed by the player. This is a JSON object where each key is a mob  name and the corresponding value is a count. ||
-|| totalDistanceTraveled || float || v2.0 || The total distance traveled. ||
+|| totalDistanceTraveled || float || v2.0+ || The total distance traveled. ||
 || travelDistances || MAPPED || All || The distances traveled by different means. This is a JSON object where each key is a travel method and the corresponding value is the number of meters travelled. ||
 || biomeDistances || MAPPED || All ||  The distances traveled in each type of biome. This is a JSON object where each key is a biome name and the corresponding value is the number of meters travelled. ||
 || travelTimes || MAPPED || All || The amount of time traveled by different means. This is a JSON object where each key is a travel method and the corresponding value is the number of seconds travelled. ||
 || biomeTimes || MAPPED || All || The amount of time traveled in each type of biome. This is a JSON object where each key is a biome name and the corresponding value is the number of seconds travelled. ||
-|| totalItemsDropped || integer || v2.0 || The total number of items dropped. ||
+|| totalItemsDropped || integer || v2.0+ || The total number of items dropped. ||
 || itemsDropped || MAPPED || All || This is a JSON object where each key is a material name and the corresponding value is a count. ||
-|| totalItemsPickedUp || integer || v2.0 || The total number of items picked up. ||
+|| totalItemsPickedUp || integer || v2.0+ || The total number of items picked up. ||
 || itemsPickedUp || MAPPED || All || This is a JSON object where each key is a material name and the corresponding value is a count. ||
-|| totalItemsCrafted  || integer || v2.0 || The total number of items crafted. ||
+|| totalItemsCrafted  || integer || v2.0+ || The total number of items crafted. ||
 || itemsCrafted || MAPPED || All || This is a JSON object where each key is a material name and the corresponding value is a count. ||
 || eggsThrown || MAPPED || All || This is a JSON object where each key is an egg type and the corresponding value is a count.||
 || foodEaten || MAPPED || All || This is a JSON object where each key is an item name and the corresponding value is a count.||
@@ -93,4 +93,4 @@ Most of the player information and statistics are stored directly in the specifi
 || sessionTime || integer || All || The number of seconds the player has been playing for the last time they played. ||
 || totalTime || integer || All || The total number of seconds the player has played for. ||
 || lastUpdate || timestamp || All || The date and time of the last update to the record. ||
-|| online || tinyint || v2.0 || A boolean indicating whether or not the player is currently online. ||
+|| online || tinyint || v2.0+ || A boolean indicating whether or not the player is currently online. ||
