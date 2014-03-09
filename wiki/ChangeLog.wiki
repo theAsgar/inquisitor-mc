@@ -1,3 +1,6 @@
+v2.23:
+  * Fixed a new bug that would cause exceptions when fires are started.
+
 v2.22:
   * Updated plugin.yml file with proper author references, links.
   * Added the ability to see a users Ender Chest contents.
