@@ -11,6 +11,7 @@ Most of the player information and statistics are stored directly in the specifi
 || address || varchar || All || Player's last client address. ||
 || inventory || JSON || All || Player's inventory. The JSON is an array of objects, in slot order. Each object describes the item in the corresponding slot. Each item's keys are "type", "data", "amount", "durability", "enchantments", and "tag".||
 || armor || JSON || All || Player's armor. See "inventory" for encoding details. ||
+|| ender|| JSON || All || Player's Ender chest inventory. See "inventory" for encoding details. ||
 || heldItemSlot || integer || All || The inventory slot number of which item is being held. ||
 || health || integer || All || Player's health, from 0 to 20. ||
 || remainingAir || integer || All || Player's remaining air from 0 to 300. ||
