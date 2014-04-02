@@ -1,3 +1,8 @@
+v2.24:
+  * Fixed issue 18 for taming horses.
+  * Added functionality in issue 17 to support relational urls.
+  * Added more debugging code to help with resolving issues.
+
 v2.23:
   * Fixed a new bug that would cause exceptions when fires are started.
 
