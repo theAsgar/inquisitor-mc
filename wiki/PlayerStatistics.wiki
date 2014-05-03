@@ -94,3 +94,4 @@ Most of the player information and statistics are stored directly in the specifi
 || totalTime || integer || All || The total number of seconds the player has played for. ||
 || lastUpdate || timestamp || All || The date and time of the last update to the record. ||
 || online || tinyint || v2.0+ || A boolean indicating whether or not the player is currently online. ||
+|| uuid|| varchar|| v2.25+ || String representation of the player UUID to support name changes ||
