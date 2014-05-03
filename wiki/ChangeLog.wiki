@@ -1,3 +1,6 @@
+v2.25:
+  * Added support for player UUIDs and name changes issue 20
+
 v2.24:
   * Fixed issue 18 for taming horses.
   * Added functionality in issue 17 to support relational urls.
