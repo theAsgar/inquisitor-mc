@@ -1,3 +1,6 @@
+v2.26:
+  * Fix a bug that will cause inquisitor to fail on first run.
+
 v2.25:
   * Added support for player UUIDs and name changes issue 20
 
