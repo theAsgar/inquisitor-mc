@@ -1,3 +1,6 @@
+v2.27
+  * fix a bug that will cause inquisitor to fail after the first run...
+
 v2.26:
   * Fix a bug that will cause inquisitor to fail on first run.
 
