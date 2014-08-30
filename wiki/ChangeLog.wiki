@@ -1,5 +1,5 @@
 v2.28
-  * Fixed issue 23 if you use a prefix for your tables, you need this update. PlayerOnJoin is failing and you are unable to view players data on the web page as a result.
+  * Fixed issue 23 issue 24 if you use a prefix for your tables, you need this update. PlayerOnJoin is failing and you are unable to view players data on the web page as a result.
   * Fixed issue 21 Removed support for upgrading from a version older than v2.14. Install v2.18 first to upgrade past 2.14, then install the latest version here.
 
 v2.27
